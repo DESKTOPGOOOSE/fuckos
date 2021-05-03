@@ -37,10 +37,10 @@ BEGIN_PM:
     jmp $ 
 ; -----------------------------------------------
 BOOT_DRIVE db 0 
-MSG_REAL_MODE db "Booted!", 0
+MSG_REAL_MODE db "HOLY SHAT, FUCKOS BOOTED!", 0
 MSG_PROT_MODE db "", 0
-MSG_LOAD_KERNEL db "Loading kernel...", 0
-MSG_RETURNED_KERNEL db "Error loading kernel.", 0
+MSG_LOAD_KERNEL db "Wasting your time...", 0
+MSG_RETURNED_KERNEL db "Could not waste your time.", 0
 ; padding
 times 510 - ($-$$) db 0
 dw 0xaa55
